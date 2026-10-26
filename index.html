@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Mon Projet">
+    <meta name="author" content="HOUNKPEVI jean-pierre">
+    <meta name="keywords" content="Projet, L1 ISI, Brest">
+    <meta charset="UTF-8">
+    <script src="script/e22408608.js"></script>
+    <link rel="stylesheet" href="css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Mon superbe projet Web !</title>
+</head>
+<body>
+   <div id="haut">
+    <h1 >La pollution atmosphérique:un problème majeure actuel.</h1>
+   </div>
+    <div id="entete" >
+    <img class="image1" src="img/logo.jpg"> 
+    </div>
+    <div id="navigation">
+    <ul >
+     <li><a href="page/cause.html">Causes</a></li>
+     <li><a href="page/consequence.html">Consequences</a></li>
+     <li><a href="page/solution.html">Solutions</a></li>
+    </ul>
+    </div>
+    <div id="ims">
+
+     <div class="diapos">
+    <img class="img1" src="img/fumée.jpg"> 
+    </div>
+
+    <div class="diapos">
+    <img class="img2" src="img/nature.jpg">
+   </div>
+
+   <div class="diapos">
+    <img  class="img3" src="img/newimage.jpg" alt="image">
+   </div>
+
+    </div>
+    <br>
+    <div id="boutton"> 
+    <input type="button" onclick="diapporama(-1)" value="Previous">
+    <input type="button" onclick="diapporama(1)" value="Next">
+
+   </div>
+
+   <br>
+    <hr style="border: 2px solid black;width: 90%">
+      <div id="photo" >
+         <img src="img/fumée.jpg" alt="pp" class="ph"  onclick="showImage(0)">
+          <img src="img/nature.jpg" alt="pp" class="ph" onclick="showImage(1)">
+          <img src="img/newimage.jpg" alt="pp" class="ph" onclick="showImage(2)">
+         
+      </div>
+    <hr style="border: 2px solid black;width: 90%" >
+
+   
+
+
+
+
+    <div id="contenu">
+     <p >
+     <br>La pollution atmosphérique désigne la présence de substances nocives dans l'air que nous respirons . Ces substances peuvent etre  
+     d'origine naturelles ou humaines et ont des effets néfastes sur la santé humaine,les écosystèmes et le climat.La principale cause de la pollution atmosphérique 
+     est l'émission des gaz à effetde serre.   <br>  Le tableau ci dessous traite de cette dangeureuse catégories de polluants .
+     </p>
+     <hr>Afin de mieux comprendre le sujet ,une conférence est organiser a ce sujet .Veuillez indiquer votre age 
+     et cout de la rencontre vous sera donner.
+     <hr>
+
+     <table>
+
+      <tr>
+        <td><label for="agge">Age:</label> </td>
+        <td><input type="number" id="Age" size="12" /></td>
+      </tr>
+
+      <tr><td>  <input type="button" value="Cout" onclick="Conference()" id="boutton" size="20"></td></tr>
+
+      <tr>
+      <td> <label for="agge">Montant:</label></td>
+      <td><input type="text" id="cout" size="20" /></td>
+      </tr>
+
+     </table>
+
+
+
+      <h2>Tableau </h2>
+      <table border="1">
+        <tr>
+        <th> </th>
+        <th>Effet sur la santé </th>
+         <th>Effet sur l'environnement</th>
+        </tr>
+        <tr>
+        <th>gaz à effet de serre </th>
+        <td>Maladies pulmonaires;<br>Problèmes respiratoires </td>
+        <td>Réchauffement climatique; <br>Acidification des océans</td>
+        </tr>
+        <tr>
+        <th>Solutions</th>
+        <td>Eviter au maximum les <br>zones fortement industrialliser; <br>Se protéger avant de s'y rendre </td>
+        <td>Refforestation ;<br>Reduire la consommation de viandes </td>
+        </tr>
+      </table>
+      <p>Ce rapport de l'ONU en dit long sur le gravité du phénoméne :<a href="data/pollutiondel'air.pdf"download>Télécharger</a></p>
+    </div>
+</body>
+</html>    

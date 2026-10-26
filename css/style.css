@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'permanent_markerregular';
+    src: url('PermanentMarker-webfont.eot');
+    src: url('PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
+            url('PermanentMarker-webfont.woff2') format('woff2'),
+            url('PermanentMarker-webfont.woff') format('woff'),
+            url('PermanentMarker-webfont.ttf') format('truetype'),
+            url('PermanentMarker-webfont.svg#permanent_markerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+h1 {
+    font-family:'permanent_markerregular';   
+    font-size:20pt;
+    color:red;    
+    text-decoration: underline;
+}
+#navigation ul
+{
+list-style: none;
+display: flex;
+justify-content: space-around;
+list-style-type: upper-roman;
+font-family: "Merriweather", serif;
+font-style: italic;
+}
+.image1
+{
+width:50px ; 
+height: 40px;
+}
+#entete
+{
+    display: flex;
+    justify-content: center;
+    
+}
+#ims
+{
+  display: flex;
+  justify-content: center;
+  
+}
+.img1
+{
+width: 100%;
+height:200px;
+
+}
+.img2
+{
+  width: 100%;  
+  height:200px ;
+  
+  
+
+}
+.img3
+{
+  width: 100%;  
+  height:200px ;
+  
+}
+.diapos
+{
+  display: none;
+}
+
+.diapos:first-child{
+  display: block;
+}
+body
+{
+    background-image: url(../img/fond.jpg);
+    font-size: 20px;
+    font-weight: 5px;
+    font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+#contenu {
+width: 100%;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+#haut
+{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  text-decoration: underline;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+#boutton
+{
+  display: flex;
+  justify-content: center;
+}
+
+#photo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ph{
+  width: 100px;
+  height: 100px;
+}
+#boutton{
+ text-align: center;
+}
+
+label[for="agge"]{
+  text-decoration: underline;
+  color: blue;
+}

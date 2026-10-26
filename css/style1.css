@@ -1,0 +1,47 @@
+.un
+{
+display: flex;
+justify-content: center;
+color: blue;
+}
+.voiture
+{
+width: 200px;
+}
+#imgvoiture
+{
+ display: flex;
+ justify-content: flex-start;
+}
+.navigation2 ul
+{
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+.contenu
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+body
+{
+background-image:url(../img/image2.jpg) ;
+font-size: 20px;
+font-weight: 5px;
+font-family: "Permanent Marker", cursive;
+font-weight: 400;
+font-style: normal;
+}
+h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }

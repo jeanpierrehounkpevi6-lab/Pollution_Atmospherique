@@ -1,0 +1,53 @@
+
+.entete{
+text-align:center ;
+color: blueviolet;
+}
+.logo{
+display: flex;
+justify-content: center;
+}
+.un{
+width: 200px;
+}
+.navigation3 ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
+list-style-type: none;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+body{
+background-image:url(../img/image3.jpg) ;
+font-family: "Old Standard TT", serif;
+font-size: 20px;
+font-weight: 5px;
+}
+.old-standard-tt-regular {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .old-standard-tt-bold {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .old-standard-tt-regular-italic {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  h1{text-decoration: underline;
+     font-family:"Old Standard TT", serif;
+     font: weight 400;
+     font-style: italic;
+    }
+  h2{text-decoration: underline;}
